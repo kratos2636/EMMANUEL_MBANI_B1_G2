@@ -1,0 +1,66 @@
+.body {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTVsYnJndGtmeXI0b2prY2RkbmUxdHlidDZicjdzMWNkeTJrYm43MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XX0V50HI1rWAzVfABm/giphy.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.presentation-contenu-membre-arcadia {
+    display: flex;
+  justify-content: center; /* Aligne les éléments horizontalement à droite */
+  align-items: center; /* Aligne les éléments verticalement en haut */
+  height: 100vh; /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+}
+
+.presentation-contenu-banniere {
+    display: flex;
+
+}
+
+.background {
+
+    background-color: rgb(106, 29, 29);
+   height:10vh ;
+ 
+   
+}
+
+.a-propos-de-nous-alignement {
+    display: flex;
+    justify-content:center
+    
+}
+
+.a-propos-de-nous-texte {
+    font-size: 300%;
+    text-decoration: underline;color: aliceblue;
+    background-color: brown;
+    
+}
+
+.bienvenu {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.differente-action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.footer-style {
+    display: flex;
+    justify-content: center;
+    background-color: azure; 
+    font-size: 100%;
+    align-items: center;
+
+
+}
+
+
+

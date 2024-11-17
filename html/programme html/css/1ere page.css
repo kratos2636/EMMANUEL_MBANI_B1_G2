@@ -1,0 +1,51 @@
+.body {
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRydTVjZWlodW1majIyN2kxc2x6M2JuZDN5dXZ2dDhtZmt4b2U1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12W5Sg2koWYnwA/giphy.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.presentation-contenu {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  flex-direction: column; /* Aligne les éléments verticalement */
+}
+
+.bloc-centre {
+  text-align: center; /* Centre le contenu à l'intérieur du bloc */
+}
+
+.image-cercle {
+  display: block;
+  margin: 0 auto; /* Centre l'image horizontalement */
+  width: 350px; /* Largeur de l'image */
+  height: 350px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  object-fit: cover; /* Assure que l'image couvre tout le cercle */
+}
+
+.bloc-lien {
+  margin-top: 20px; /* Ajoute un espace entre l'image et le lien */
+}
+
+.texte-grand-connectez-vous {
+    font-size: 25px; /* Taille du texte en pixels */
+}
+
+.texte-grand-pour-bonjour {
+    font-size: 30px; /* Taille du texte en pixels */
+}
+
+.contenu {
+    max-width: 600px; /* Limite la largeur du texte */
+}
+
+.texte-style-pour-bonjour {
+    border: 5px solid #8a0b04; /* Ajoute un cadre de 2 pixels de largeur, de couleur noire */
+    background-color: #868282; /* Ajoute un fond de couleur gris clair */
+    padding: 10px; /* Ajoute un espace intérieur autour du texte */
+    border-radius: 5px; /* Arrondit les coins du cadre */
+}
+
